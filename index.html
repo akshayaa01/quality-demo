@@ -1,0 +1,36 @@
+
+<!DOCTYPE html> 
+
+<html lang="en"> 
+
+<head> 
+
+  <meta charset="UTF-8" /> 
+
+  <title>ESLint + Playwright Demo</title> 
+
+</head> 
+
+<body> 
+
+  <h1 id="title">Welcome to Automation!</h1> 
+
+  <button id="clickMe">Click Me</button> 
+
+  <p id="message"></p> 
+
+  <script> 
+
+    const button = document.getElementById('clickMe') 
+
+    button.addEventListener('click', () => { 
+
+      document.getElementById('message').textContent = 'Button clicked!' 
+
+    }) 
+
+  </script> 
+
+</body> 
+
+</html> 
